@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+body {
+    background:rgba(160, 214, 221, 0.007);
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    background: #4f46e5;
+    color: white;
+    padding: 15px 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.left img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;  
+    object-fit: cover;
+    border: 5px solid #050415d6;
+}
+
+.right {
+    margin-left: 50px;
+}
+
+.right h2 {
+    color: #4670e5;
+}
+
+section {
+    padding: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #8a1e6a;
+}
+
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #3730a3;
+}
+.social {
+    margin-top: 50px;
+}
+
+.social a {
+    margin-left:25px;
+    text-decoration:underline;
+    color: #4f46e5;
+    font-weight: bold;
+}
+
+.social a:hover {
+    color: rgba(255, 0, 0, 0.675);
+}
+.skills-circle{
+    width:350px;
+    height:300px;
+    background:rgba(255, 179, 0, 0.653);
+    border-radius:50%;
+    margin:40px auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+.skills-circle ul{
+    list-style:disc;
+    margin-top:10px;
+    padding-left:20px;
+    text-align:left;
+}
+.skills-circle h2{
+    margin-bottom:10px;
+}
+.projects-oval{
+    width:450px;
+    height:300px;
+    background:rgba(0, 255, 136, 0.39);
+    border-radius:50%;
+    margin:40px auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+.projects-oval ul{
+    list-style:disc;
+    margin-top:10px;
+    padding-left:20px;
+    text-align:left;
+}
+.certifications-circle{
+    width:350px;
+    height:300px;
+    background:rgba(166, 0, 255, 0.37);
+    border-radius:50%;
+    margin:40px auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+.certifications-circle ul{
+    list-style:disc;
+    margin-top:10px;
+    padding-left:20px;
+    text-align:left;
+}
+
